@@ -1,0 +1,36 @@
+.App {
+  background-color: #f1b701;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+p,
+h2 {
+  padding: 0;
+  margin: 0;
+  color: white;
+}
+.formPage {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: transparent;
+  box-shadow: 9px 9px 9px #f5b938;
+  opacity: 0.8;
+  background-color: #e9a93a;
+}
+.input {
+  height: 25px;
+  border-radius: 5px;
+  padding-left: 10px;
+  width: 200px;
+}
+.btn {
+  margin-top: 15px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 100%;
+  &:hover {
+    background-color: #d78a05;
+  }
+}
