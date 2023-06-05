@@ -35,7 +35,7 @@ function App() {
       const validationErrors = validation.errors.all();
 
       // Remove password error if email is empty
-      if (validation.hasOwnProperty("email") || !data.email.trim()) {
+      if (validation.errors.has("email") || !data.email.trim()) {
         delete validationErrors.password;
       }
       seterrors(validationErrors);
